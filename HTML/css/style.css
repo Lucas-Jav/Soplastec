@@ -310,17 +310,44 @@ button.btn-menu-burger span {
     width: max-content;
     height: auto;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
-.contact i {
+.contact .socialMedia i {
     color: #fff;
+}
+
+.socialMedia {
+    cursor: pointer;
+    background-image: linear-gradient(transparent 0%,
+            transparent 90%,
+            #fff 96%,
+            #fff 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.socialMedia span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.socialMedia:hover {
+    opacity: 1;
+    color: #fff;
+    transition: 1s;
+    background-size: 100% 100% !important;
+    background-position-x: left !important;
 }
 
 .navLinks {
     color: #fff;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     background-image: linear-gradient(transparent 0%,
