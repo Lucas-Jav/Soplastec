@@ -863,8 +863,16 @@ section#about-us .about-description {
     margin: 0 auto;
 }
 
-section#about-us .btn {
+
+section#about-us .links {
     margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+
+section#about-us .links .btn {
     text-wrap: balance;
 }
 
