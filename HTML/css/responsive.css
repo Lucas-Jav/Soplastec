@@ -313,6 +313,10 @@ Author URI: gnodesign.com
     footer .footer-newsletter {
         margin-top: 0;
     }
+    /* section#about-us .about-image {
+        background-size: contain;
+        background-repeat: no-repeat;
+    } */
 }
 
 
