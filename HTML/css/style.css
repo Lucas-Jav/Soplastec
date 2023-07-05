@@ -850,7 +850,7 @@ section#about-us {
 }
 
 section#about-us .about-image {
-    background: url('../images/img/about-img.jpg');
+    background: url('../images/img/soplastec-about.jpg');
     background-size: cover;
     min-height: 440px;
     z-index: 1;
