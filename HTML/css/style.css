@@ -870,6 +870,7 @@ section#about-us .links {
     gap: 10px;
     justify-content: center;
     align-items: start;
+    flex-wrap: wrap;
 }
 
 section#about-us .links .btn {
@@ -1783,7 +1784,8 @@ footer .footer-top {
 }
 
 footer .footer-top img {
-    height: 26px;
+    /* height: 26px; */
+    width: 150px;
     margin-bottom: 30px;
 }
 
